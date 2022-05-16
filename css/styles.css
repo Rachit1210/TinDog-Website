@@ -1,0 +1,302 @@
+body
+{
+    font-family: 'Montserrat';
+}
+h1 { 
+    font-family: 'Montserrat', sans-serif;
+     font-size: 2.5rem;  
+     line-height: 1.5;  
+font-weight: 900;
+    }
+
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid
+{
+    padding: 3% 15%;
+}
+
+/* Navigation-bar */
+.navbar-brand
+{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img
+{
+    width: 60%;
+    padding-left: 4rem;
+    transform: rotate(25deg);
+position:absolute;
+right: 20%;
+}
+.position
+{
+    position: relative;
+}
+#features
+{
+    padding: 7% 12%;
+    background-color: #ffffff;
+position: relative;
+}
+
+.feature-items
+{
+    text-align: center;
+    padding: 3%;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+p{
+    color: #8f8f8f;
+}
+
+.icon
+{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonial */
+
+#testimonials
+{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image
+{
+    width: 10%;
+    margin:20px;
+    border-radius: 100%;
+}
+
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image
+{
+    width:15%;
+    margin: 60px 20px 50px;
+}
+
+.carousel-item
+{
+    padding: 7% 13%;
+}
+
+.carousel-indicators [data-bs-target] {
+    position: relative;
+    width: 60px;
+    height: 6px;
+    border: none;
+    border-radius: 24px;
+  }
+
+  .card1
+  {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #0d6efd;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 9px 20px 10px 20px;
+    border:solid #0d6efd 1px;
+    text-decoration: none;
+    width:100%;
+    margin-top: 40px;
+  }
+
+  .card1:hover
+  {
+      color: #ffffff;
+    background: #0d6efd;
+    text-decoration: none;
+  }
+  .card2
+  {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #007bff;
+    padding: 9px 20px 10px 20px;
+    border:solid #0d6efd 1px;
+    text-decoration: none;
+    width:100%;
+    margin-top: 40px;
+  }
+
+  .card2:hover
+  {
+      color: #ffffff;
+    background: #0d6efd;
+    text-decoration: none;
+  }
+  .card3
+  {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #007bff;
+    padding: 9px 20px 10px 20px;
+    border:solid #0d6efd 1px;
+    text-decoration: none;
+    width:100%;
+  }
+
+  .card3:hover
+  {
+      color: #ffffff;
+    background: #0d6efd;
+    text-decoration: none;
+  }
+  #pricing
+  {
+      padding: 8% 5%;
+      text-align: center;
+  }
+  .pricecard
+  {
+      padding: 3% 2%;
+  }
+
+
+ 
+  
+  @media  (max-width:1034px)
+  {
+
+    #title
+    {
+        text-align: center;
+    }
+    
+
+    .title-img
+    {
+        position: static;
+        transform: rotate(0);
+        padding-left: 0;
+    }
+  }
+
+
+  @media (min-width:576px) and (max-width:767px)
+  {
+    .meettitle
+    {
+        width: 50%;
+    }
+
+
+    #title
+    {
+        text-align: center;
+    }
+    
+    .position
+    {
+        width: 50%;
+    }
+
+    .title-img
+    {
+        position:relative;
+        transform: rotate(0);
+        width:80%;
+        padding-left: 50px;
+        
+    }
+  }
+
+  #cta
+  {
+      background-color:#ff4c68;
+      text-align: center;
+      padding-bottom: 5%;
+  }
+
+  .ctaline
+  {
+      color:#ffffff;
+      padding: 6% 5% 0%;
+    
+      font-family: 'Montserrat';
+     font-size: 3.7rem;
+     line-height: 5.5rem;
+  }
+
+  #footer
+  {
+      text-align: center;
+      padding: 5% 5%;
+  }
+
+ .footericon
+ {
+     padding: 3% 1%;
+ } 
+
+ .copyright
+ {
+     width: 100%;
+     padding: 0% 0%;
+ }
